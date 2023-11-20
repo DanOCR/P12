@@ -1,0 +1,53 @@
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+.mail, .phone, .discord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.mail, .phone {
+    border-right: 2px solid black;
+}
+.contact img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact img:hover {
+    animation: no 0.4s forwards;
+}
+.contact p {
+    padding: 0%;
+}
+@keyframes no {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-10px);
+    }
+    40% {
+        transform: translateX(10px);
+    }
+    60% {
+        transform: translateX(-10px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

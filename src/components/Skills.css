@@ -1,0 +1,55 @@
+
+.skills {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.collapses {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toggle ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0%;
+    gap: 1em;
+    list-style-type: none;
+}
+li img {
+    width: 60px;
+    height: 60px;
+}
+.poland {
+    opacity: 0.1;
+}
+article {
+    margin-top: 15px;
+    font-size: 14px;
+    width: 50vw;
+    color: grey;
+}
+
+
+@media screen and (max-width: 782px) {
+
+
+    .collapses {
+        width: 75%;
+    }
+article {
+    display: none;
+}
+.toggle ul {
+    gap: 5vw;
+}
+li img {
+    width: 8vw;
+    height: 8vw;
+}
+}

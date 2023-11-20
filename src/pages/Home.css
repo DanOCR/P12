@@ -1,0 +1,19 @@
+.start {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+}
+
+.start button {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 25%;
+    border-radius: 50px;
+    background-color: grey;
+}

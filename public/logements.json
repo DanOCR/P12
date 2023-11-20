@@ -1,0 +1,24 @@
+
+
+[
+    {
+      "title": "OHMYFOOD",
+      "cover": "./OhMyFood.png",
+      "id": "1",
+      "description": "Ce projet m'a permis d'apprendre les bases de CSS, notamment en terme d'animation."
+      
+
+    },
+    {
+        "title": "KASA",
+        "cover": "./Kasa.png",
+        "id": "2",
+        "description": "Ce projet m'a permis d'apprendre les bases de JavaScript et React, en utilisant le mapping et la récupération de datas, permettant une optimisation du code."
+    },
+    {
+        "title": "QWENTA",
+        "cover": "./Qwenta.png",
+        "id": "3",
+        "description": "Ce projet m'a permis d'apprendre à faire une veille informatique, de chercher des solutions techniques, et d'utiliser un outil de gestion."
+    }
+]

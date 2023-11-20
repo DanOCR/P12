@@ -1,0 +1,37 @@
+* {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  padding: 40px; 
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar img {
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+nav {
+  display: flex;
+  font-size: 20px;
+  gap: 30px;
+}
+nav a {
+  color: white;
+  letter-spacing: 5px;
+}
+#mail {
+  border: solid 2px grey;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 782px) {
+
+.navbar {
+padding: 30px 0px;
+justify-content: center;
+}
+
+}

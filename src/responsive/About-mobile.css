@@ -1,0 +1,58 @@
+@media screen and (max-width: 782px) {
+
+nav {
+    gap: 5vw;
+}
+nav a {
+    font-size: 4vw;
+}
+section {
+    flex-direction: column;
+    align-items: center;
+}
+.polaroid {
+    display: flex;
+    align-items: center;
+    height: 40vw;
+    min-height: 250px;
+    min-width: 250px;
+    width: 40vw;
+    margin-left: 0%;
+}
+.about {
+    padding: 0%;
+}
+.about h1 {
+    margin: 0%;
+    font-size: 5.5vw;
+}
+.about h2 {
+    font-size: 2vw;
+    width: 80%;
+}
+.about img {
+    width: 5%;
+    height: 5vw;
+    margin-top: 10px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+header {
+    height: 520px;
+}
+.about {
+    padding-right: 0%;
+}
+.about h1 {
+    margin: 0%;
+    font-size: 36px;
+}
+.about h2 {
+    font-size: 14px;
+    width: 80%;
+}
+
+}
