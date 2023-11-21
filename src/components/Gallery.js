@@ -3,7 +3,6 @@ import "../responsive/Gallery-mobile.css";
 import { Card } from "./Card";
 
 export default function Gallery({ data }) {
-
   return (
     <div id="portfolio" className="gallery">
       {data?.map((element, index) => (

@@ -3,7 +3,7 @@
 }
 .navbar {
   display: flex;
-  padding: 40px; 
+  padding: 40px;
   justify-content: flex-end;
   align-items: center;
 }
@@ -16,6 +16,7 @@ nav {
   display: flex;
   font-size: 20px;
   gap: 30px;
+  animation: fadein 3s;
 }
 nav a {
   color: white;
@@ -28,10 +29,8 @@ nav a {
 }
 
 @media screen and (max-width: 782px) {
-
-.navbar {
-padding: 30px 0px;
-justify-content: center;
-}
-
+  .navbar {
+    padding: 30px 0px;
+    justify-content: center;
+  }
 }

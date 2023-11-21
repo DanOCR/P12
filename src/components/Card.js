@@ -1,13 +1,9 @@
 import "./Card.css";
 import "../responsive/Card-mobile.css";
-import Carousel from "./Carousel/Carousel"
-import Close from "../images/Close.png"
-
-// export const Card = ({ title, cover, id }) => {
 
 import { useState } from "react";
 
-export const Card = ({ title, cover, description}) => {
+export const Card = ({ title, cover, description }) => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
@@ -19,12 +15,20 @@ export const Card = ({ title, cover, description}) => {
   }
 
   const GitHub = () => {
-    window.open("https://github.com/DanOCR?tab=repositories");
-  }
+    if (cover === "./OhMyFood.png") {
+      window.open("https://github.com/DanOCR/ohmyfood");
+    } else if (cover === "./Kasa.png") {
+      window.open("https://github.com/DanOCR/Kasa");
+    } else {
+      window.open(
+        "https://docs.google.com/presentation/d/1hpd1u0CdDPobAY2GFtserFJ3dLYXPmqM6708W8cHkFI/edit#slide=id.g228deeb73c6_1_24"
+      );
+    }
+  };
   return (
     <>
       <button onClick={toggleModal} className="btn-modal">
-        <img src={cover} />
+        <img src={cover} alt="" />
         <h1> {title} </h1>
       </button>
 
@@ -33,13 +37,12 @@ export const Card = ({ title, cover, description}) => {
           <div className="overlay">
             <div className="modal-content">
               <div className="slider">
-                <img src={cover} onClick={GitHub} />
-                
+                <img src={cover} onClick={GitHub} alt="" />
               </div>
               <h1> {title} </h1>
               <p> {description} </p>
-             
-              <button src={Close} onClick={toggleModal} className="close-modal">
+
+              <button onClick={toggleModal} className="close-modal">
                 {" "}
                 X{" "}
               </button>

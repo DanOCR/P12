@@ -1,9 +1,8 @@
 import About from "../components/About";
-import Banner from "../components/Banner";
+
 import Contact from "../components/Contact";
 import Gallery from "../components/Gallery";
 import Skills from "../components/Skills";
-import Image from "../images/IMG.jpg";
 import { useEffect, useState } from "react";
 
 export default function Home() {

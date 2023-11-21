@@ -19,16 +19,12 @@
   color: white;
   border-style: none;
   border-radius: 5px;
+  font-weight: 600;
 }
 button img {
   margin-right: 20px;
   width: 1.5vw;
 }
-/* button img:hover {
-  box-shadow: 0 4px 6px rgba(0,0,0,.3);
-  transform:scale(101%);
-  cursor: pointer;
-} */
 .toggle {
   padding-top: 30px;
   text-align: start;
