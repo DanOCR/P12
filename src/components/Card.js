@@ -15,9 +15,9 @@ export const Card = ({ title, cover, description }) => {
   }
 
   const GitHub = () => {
-    if (cover === "./OhMyFood.png") {
+    if (cover === "./OhMyFood.avif") {
       window.open("https://github.com/DanOCR/ohmyfood");
-    } else if (cover === "./Kasa.png") {
+    } else if (cover === "./Kasa.avif") {
       window.open("https://github.com/DanOCR/Kasa");
     } else {
       window.open(
