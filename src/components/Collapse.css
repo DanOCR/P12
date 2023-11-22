@@ -31,7 +31,7 @@ button img {
   background-color: #f7f7f7;
   border-radius: 0 0 5px 5px;
 }
-p {
+.collapse p {
   margin: 0;
   padding: 0 0 10px 15px;
   font-family: "Montserrat";
